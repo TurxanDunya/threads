@@ -1,4 +1,4 @@
-package main.diningphilosophersproblem;
+package main.reallifeexamples.diningphilosophersproblem;
 
 import java.util.Random;
 

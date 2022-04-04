@@ -1,11 +1,11 @@
-package main.diningphilosophersproblem;
+package main.reallifeexamples.diningphilosophersproblem;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import static main.diningphilosophersproblem.Constants.NUMBER_OF_CHOPSTICKS;
-import static main.diningphilosophersproblem.Constants.NUMBER_OF_PHILOSOPHERS;
-import static main.diningphilosophersproblem.Constants.SIMULATION_RUNNING_TIME;
+import static main.reallifeexamples.diningphilosophersproblem.Constants.NUMBER_OF_CHOPSTICKS;
+import static main.reallifeexamples.diningphilosophersproblem.Constants.NUMBER_OF_PHILOSOPHERS;
+import static main.reallifeexamples.diningphilosophersproblem.Constants.SIMULATION_RUNNING_TIME;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
