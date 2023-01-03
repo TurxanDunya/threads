@@ -1,4 +1,4 @@
-package main.intrinsicLock;
+package main.locks.intrinsicLock;
 
 public class IntrinsicLockExample {
 
@@ -18,15 +18,14 @@ public class IntrinsicLockExample {
         }
     }
 
-
     private static void process() {
         Thread t1 = new Thread(() -> {
-            for (int i = 0; i < 100; ++i)
+            for (int i = 0; i < 10000; ++i)
                 increment1();
         });
 
         Thread t2 = new Thread(() -> {
-            for (int i = 0; i < 100; ++i)
+            for (int i = 0; i < 10000; ++i)
                 increment2();
         });
 

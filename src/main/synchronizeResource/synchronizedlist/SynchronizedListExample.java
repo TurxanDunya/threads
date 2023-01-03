@@ -1,4 +1,4 @@
-package main.synchronizedlist;
+package main.synchronizeResource.synchronizedlist;
 
 import java.util.ArrayList;
 import java.util.Collections;

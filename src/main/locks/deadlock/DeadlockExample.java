@@ -1,4 +1,4 @@
-package main.deadlock;
+package main.locks.deadlock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
