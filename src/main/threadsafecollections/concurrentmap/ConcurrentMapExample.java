@@ -1,7 +1,5 @@
 package main.threadsafecollections.concurrentmap;
 
-import main.executors.singlethreadexecutor.SingleThreadExecutorExample;
-
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
