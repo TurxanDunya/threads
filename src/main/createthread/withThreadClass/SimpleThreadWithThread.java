@@ -1,11 +1,11 @@
-package main.withThreadClass;
+package main.createthread.withThreadClass;
 
 class FirstRunner extends Thread {
 
     @Override
     public void run() {
         try {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 1000; i++)
                 System.out.println("FirstRunner: " + i);
             Thread.sleep(100);
         } catch (InterruptedException e) {
@@ -19,7 +19,7 @@ class SecondRunner extends Thread {
     @Override
     public void run() {
         try {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 1000; i++)
                 System.out.println("SecondRunner: " + i);
             Thread.sleep(100);
         } catch (InterruptedException e) {
@@ -44,6 +44,8 @@ public class SimpleThreadWithThread {
         }
 
         //After both threads finish their job, this statement will be executed
+        //We call join() method for each thread, and tell them finish them first.
+        //Then continue to this line
         System.out.println("Both thread completed their tasks");
     }
 }

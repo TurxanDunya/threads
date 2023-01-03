@@ -1,4 +1,4 @@
-package main.synchronization;
+package main.synchronizeResource.synchronization;
 
 public class SynchronizationExample {
     private static int counter = 0;
@@ -10,12 +10,12 @@ public class SynchronizationExample {
 
     private static void process() {
         Thread t1 = new Thread(() -> {
-            for (int i = 0; i < 100; ++i)
+            for (int i = 0; i < 1000; ++i)
                 increment();
         });
 
         Thread t2 = new Thread(() -> {
-            for (int i = 0; i < 100; ++i)
+            for (int i = 0; i < 1000; ++i)
                 increment();
         });
 

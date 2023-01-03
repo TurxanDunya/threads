@@ -1,4 +1,4 @@
-package main.lock;
+package main.locks.lock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -12,7 +12,7 @@ public class LockExample {
         lock.lock();
 
         try {
-            for (int i =0; i < 100; i++) {
+            for (int i = 0; i < 100; i++) {
                 counter++;
             }
         } finally { //We have to use finally, in case of maybe exception happens while incrementing
