@@ -1,5 +1,7 @@
 package main.basics.locks.intrinsicLock;
 
+// An intrinsic lock (or monitor) is an implicit internal entity associated with each instance of objects.
+// The intrinsic lock enforces exclusive access to an object's state.
 public class IntrinsicLockExample {
 
     private static int counter1 = 0;

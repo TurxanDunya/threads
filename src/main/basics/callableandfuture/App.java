@@ -40,5 +40,7 @@ public class App {
                 e.printStackTrace();
             }
         }
+
+        service.shutdown();
     }
 }

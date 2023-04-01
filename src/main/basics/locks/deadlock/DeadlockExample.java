@@ -3,6 +3,7 @@ package main.basics.locks.deadlock;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+// Deadlock
 public class DeadlockExample {
 
     private final Lock lock1 = new ReentrantLock(true);
