@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+// Livelock
 public class LivelockExample {
     private final Lock lock1 = new ReentrantLock(true);
     private final Lock lock2 = new ReentrantLock(true);

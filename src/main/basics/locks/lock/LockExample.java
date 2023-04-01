@@ -12,7 +12,7 @@ public class LockExample {
         lock.lock();
 
         try {
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 1000; i++) {
                 counter++;
             }
         } finally { //We have to use finally, in case of maybe exception happens while incrementing
